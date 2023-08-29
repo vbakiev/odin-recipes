@@ -1,7 +1,51 @@
-a{ 
-    display: block;
-    text-align: center;
+*{
+    background-color: rgb(56, 56, 56);
 }
+
+.container{
+    background-color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-left: 262px;
+}
+
+body, h1, h2, h3, h4, ul, ol, li, a, p, #logo-text{
+    background-color: white;
+}
+
+body{
+    border: 2px solid rgb(2, 2, 2);
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 50px;
+
+}
+
+.main-h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-a{ 
+    text-align: left;
+    display: block;
+    margin-left: 30%;
+    margin-right: 35%;
+}
+
+p{
+    font-weight: 400;
+}
+
+.main-p{
+    padding-left: 200px;
+}
+
 
 #logo{
     font-family: fantasy;
@@ -10,11 +54,28 @@ a{
 }
 
 #logo-gif{
+    border: 1px solid black;
+    border-radius: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
-body{
-    background-color: grey;
+#logo-text{
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 350px;
 }
+
+img{
+    border-radius: 25px;
+
+}
+
+.dish-img{
+    height: 100px;
+    width: 150px;
+}
+
